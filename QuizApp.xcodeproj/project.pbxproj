@@ -14,6 +14,7 @@
 		244CC52E2C390ED9008D8102 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC52D2C390ED9008D8102 /* QuizAppTests.swift */; };
 		244CC5382C390ED9008D8102 /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC5372C390ED9008D8102 /* QuizAppUITests.swift */; };
 		244CC53A2C390ED9008D8102 /* QuizAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC5392C390ED9008D8102 /* QuizAppUITestsLaunchTests.swift */; };
+		244CC5472C390F66008D8102 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CC5462C390F66008D8102 /* Quiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		244CC5332C390ED9008D8102 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		244CC5372C390ED9008D8102 /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		244CC5392C390ED9008D8102 /* QuizAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		244CC5462C390F66008D8102 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				244CC51B2C390ED7008D8102 /* QuizAppApp.swift */,
 				244CC51D2C390ED7008D8102 /* ContentView.swift */,
+				244CC5462C390F66008D8102 /* Quiz.swift */,
 				244CC51F2C390ED8008D8102 /* Assets.xcassets */,
 				244CC5212C390ED8008D8102 /* QuizApp.entitlements */,
 				244CC5222C390ED8008D8102 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				244CC51E2C390ED7008D8102 /* ContentView.swift in Sources */,
 				244CC51C2C390ED7008D8102 /* QuizAppApp.swift in Sources */,
+				244CC5472C390F66008D8102 /* Quiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +438,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -472,6 +477,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
